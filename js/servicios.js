@@ -1,4 +1,4 @@
- export async function cosumirAPi(URI,TOKEN){
+ export async function consumirAPI(URI,TOKEN){
 
     let parametros={
         method:"GET",
@@ -8,13 +8,10 @@
 
     let respueta =await fetch(URI,parametros)
     {
-        let respuetaFinal=respueta.json()
-        return(respuetaFinal)
+        let respuestaFinal=respueta.json()
+        return(respuestaFinal)
     }
 
-    
-
-    
 
 }
 
