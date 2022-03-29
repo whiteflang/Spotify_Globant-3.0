@@ -11,18 +11,7 @@ export async function generartoken(){
         body:`${Client_id}&${Client_secret}&${grant_type}`
     }
  
-   /* fetch(URI,parametros)
-    .then(function(respuesta){
-         return(respuesta.json())
-    })
-    .then(function(respuesta){
-                console.log(respuesta.token_type+""+respuesta.access_token)
-                
-    })
-    .catch(function(respuesta){
-                 console.log(respuesta)
- 
-    })*/
+  
 
     
    let respuesta=await fetch(URI,parametros)

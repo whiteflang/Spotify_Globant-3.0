@@ -9,14 +9,16 @@ import {pintarCanciones} from './diseño.js'
 
 
 
-let boton=document.getElementById("boton")
-boton.addEventListener("click",function(evento){
+let boton=document.getElementById("botn")
+boton.addEventListener("click", async function(evento){
     evento.preventDefault()
     let artistas=document.getElementById("artistas").value
     let URI=generaruri(artistas)
+    let token= await generartoken()
+
+    console.log(token)
      async function activarAPI(){
-        let token=await generartoken()
-    
+        
         let datosConsultadosAPI=await consumirAPI(URI,token)
         pintarCanciones(datosConsultadosAPI)
 

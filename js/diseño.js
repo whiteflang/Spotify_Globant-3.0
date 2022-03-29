@@ -4,7 +4,7 @@ export function pintarCanciones(pistas){
 
     listacanciones.innerHTML=""
 
-    pistas.tracks.forEach(function (cancion){ 
+    pistas.tracks.forEach(function(cancion){ 
 
       let cancionindividual=document.createElement("div")
 
