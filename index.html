@@ -4,7 +4,9 @@
   
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/estilos.css">
   <script src="https://cdn.tailwindcss.com"></script>
 
   
@@ -13,52 +15,70 @@
 
 <body class="font-mono ">
   <header>
-    <div class="bg-slate-500 p-16">
-        
+ <div class="grid grid-cols-4  grid-rows-3 bg-cover bg-center" style="background-image: url(./img/banner\ del\ header.jpg)">
 
-    </div>
+    <div class="gird  ">
+
+      <divn class="gir">
+         <h1>lofy beats</h1>
+      </divn>
+  
+        <div class="mb-2   row-start-2 row-span-2">
+           <select id="artistas" class="form-select appearance-none
+               block
+               w-full
+               px-3
+               py-1.5
+               text-base
+               font-normal
+               text-gray-700
+               bg-white bg-clip-padding bg-no-repeat
+               border border-solid border-gray-300
+               rounded
+               transition
+               ease-in-out
+                m-0
+            focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" aria-label="Default select example">
+         
+           <option selected>Elige tu atista Lofi favorito</option>
+           <option value="13JJKrUewC1CJYmIDXQNoH">cuarteto de nos </option>
+           <option value="2zNmlxTlRfyMAAifd2f71Q">Amies</option>
+           <option value="2GuyBEQIm7jzDzdSNTjPQe">Eternal Raijin</option>
+           <option value="225l1KEprObX8xgl8xo2Gc">Blunt one</option>
+           <option value="5FKN1xcRMjk6Nl49Xf4EJK">Yasume</option>
+           </select>
+           <button id="botn" type="submit" class="bg-black">submit</button>   
+        </div>
+     
+   </div>
+
+ </div>
+        
+  
 
   </header>
     <div class="grid   h-screen   grid-cols-4">
         <div class=" bg-red-600 col-span-3 ">
+
+          <div class="max-w-sm  bg-gray-600 rounded overflow-hidden shadow-lg">
+            <img class="w-full" src="/img/card-top.jpg" alt="Sunset in the mountains">
+            <div class="px-6 py-4">
+              <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+              <p class="text-gray-700 text-base">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+              </p>
+            </div>
+           
+          </div>
             
-                 <div class="flex justify-center">
-                     <div class="mb-3 xl:w-96">
-                        <select id="artistas" class="form-select appearance-none
-                            block
-                            w-full
-                            px-3
-                            py-1.5
-                            text-base
-                            font-normal
-                            text-gray-700
-                            bg-white bg-clip-padding bg-no-repeat
-                            border border-solid border-gray-300
-                            rounded
-                            transition
-                            ease-in-out
-                             m-0
-                         focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" aria-label="Default select example">
-                      
-                        <option selected> Open this select menu</option>
-                        <option value="13JJKrUewC1CJYmIDXQNoH">cuarteto de nos </option>
-                        <option value="3qm84nBOXUEQ2vnTfUTTFC">guns and roses</option>
-                        <option value="6olE6TJLqED3rqDCT0FyPh">Nirvana</option>
-                        <option value="53XhwfbYqKCa1cC15pYq2q">imagine dragons</option>
-                        <option value="2q3GG88dVwuQPF4FmySr9I">the score</option>
-                        </select>
-                        <button id="botn" type="submit" class="bg-black">submit</button>   
-                     </div>
-                </div>
+               
     
             
-        </div>
-      
-      
+      </div>
          <div class="grid grid-cols-1  bg-blue-900 " id="listacanciones" >    
 
         </div>
-    </div>
+      </div>
 
 
 
