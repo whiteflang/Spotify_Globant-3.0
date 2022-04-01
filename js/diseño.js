@@ -8,8 +8,7 @@ export function pintarCanciones(pistas){
 
       let cancionindividual=document.createElement("div")
 
-      cancionindividual.classList.add("rounded-md")
-      cancionindividual.classList.add("bg-zinc-200")
+      cancionindividual.classList.add("bg-zinc-700")
 
       let contenedorimagen=document.createElement("div","flex-row")
 

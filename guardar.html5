@@ -1,0 +1,26 @@
+<div class="grid  col-star-3 col-end-4 col-span-1 row-start-2 mx-5 my-5">
+       <select id="artistas" class="form-select appearance-none
+           block
+           w-full
+           px-3
+           py-1.5
+           text-base
+           font-normal
+           text-gray-700
+           bg-white bg-clip-padding bg-no-repeat
+           border border-solid border-gray-300
+           rounded
+           transition
+           ease-in-out
+            m-0
+        focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" aria-label="Default select example">
+     
+       <option selected>Elige tu atista Lofi favorito</option>
+       <option value="13JJKrUewC1CJYmIDXQNoH">cuarteto de nos </option>
+       <option value="2zNmlxTlRfyMAAifd2f71Q">Amies</option>
+       <option value="2GuyBEQIm7jzDzdSNTjPQe">Eternal Raijin</option>
+       <option value="225l1KEprObX8xgl8xo2Gc">Blunt one</option>
+       <option value="5FKN1xcRMjk6Nl49Xf4EJK">Yasume</option>
+       </select>
+       <button id="botn" type="submit" class="bg-black">submit</button>   
+  </div>
