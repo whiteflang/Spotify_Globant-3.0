@@ -8,13 +8,13 @@ export function pintarCanciones(pistas){
 
       let cancionindividual=document.createElement("div")
 
-      cancionindividual.classList.add("bg-zinc-700")
+      cancionindividual.classList.add("bg-stone-700")
 
       let contenedorimagen=document.createElement("div","flex-row")
 
       let imagen=document.createElement("img")
 
-      imagen.classList.add("h-[65px]","mx-auto","basis-1/2") 
+      imagen.classList.add("w-2/4",) 
      
       imagen.src=cancion.album.images[0].url
 

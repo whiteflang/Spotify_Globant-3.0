@@ -1,0 +1,19 @@
+
+  
+     <div class="grid grid-cols-1  bg-blue-800" id="listacanciones" >    
+
+    </div>
+  </div>
+
+
+
+
+  div class="max-w-lg grid col-start-2 col-end-5 col-span-4  row-span-3 row-star-2 row-end-5 bg--- bg-gray-600 rounded overflow-hidden shadow-lg ">
+        <img class="w-full" src="/img/LofiGirl2.webp" alt="Sunset in the mountains">
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+          <p class="text-gray-700 text-base">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+          </p>
+        </div>
+    </div>
