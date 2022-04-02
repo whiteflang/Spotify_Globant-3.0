@@ -1,11 +1,4 @@
 
-  
-     <div class="grid grid-cols-1  bg-blue-800" id="listacanciones" >    
-
-    </div>
-  </div>
-
-
 
 
   div class="max-w-lg grid col-start-2 col-end-5 col-span-4  row-span-3 row-star-2 row-end-5 bg--- bg-gray-600 rounded overflow-hidden shadow-lg ">

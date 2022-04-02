@@ -2,19 +2,27 @@ export function pintarCanciones(pistas){
 
     let listacanciones=document.getElementById("listacanciones")
 
+    
+
+    
+
     listacanciones.innerHTML=""
+
+    
 
     pistas.tracks.forEach(function(cancion){ 
 
       let cancionindividual=document.createElement("div")
 
-      cancionindividual.classList.add("bg-stone-700")
+      cancionindividual.classList.add("grid","bg-stone-800","grid","grid-cols-4","hover:bg-stone-700","mb-3","ml-3","rounded-bl-lg","rounded-tl-lg")
 
-      let contenedorimagen=document.createElement("div","flex-row")
+      let contenedorimagen=document.createElement("div")
+
+      contenedorimagen.classList.add("grid","col-span-2","rounded-bl-lg","rounded-tl-lg")
 
       let imagen=document.createElement("img")
 
-      imagen.classList.add("w-2/4",) 
+      imagen.classList.add("w-screen","rounded-bl-lg","rounded-tl-lg") 
      
       imagen.src=cancion.album.images[0].url
 
@@ -50,5 +58,9 @@ export function pintarCanciones(pistas){
 
     }) 
     
-    
+    }
+
+    export function pintartarjeta(imagen){
+
+      let ima=document.getElementById
     }
