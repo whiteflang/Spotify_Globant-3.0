@@ -1,16 +1,12 @@
 export function pintarCanciones(pistas){
 
     let listacanciones=document.getElementById("listacanciones")
-
-    
-
     
 
     listacanciones.innerHTML=""
 
-    
 
-    pistas.tracks.forEach(function(cancion){ 
+    let contenedores=pistas.tracks.map(function(cancion){ 
 
       let cancionindividual=document.createElement("div")
 
@@ -56,11 +52,12 @@ export function pintarCanciones(pistas){
       cancionindividual.appendChild(contenedorfinal)
       listacanciones.appendChild(cancionindividual)
 
+      return{contenedorimagent:imagen,
+             contenedornombre:nombre,
+            contenedoreaudio:audiocancion}
+
     }) 
     
-    }
+  return contenedores}
 
-    export function pintartarjeta(imagen){
-
-      let ima=document.getElementById
-    }
+  
