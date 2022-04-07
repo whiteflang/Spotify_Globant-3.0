@@ -4,8 +4,7 @@ import {generaruri} from './generadoruri.js'
 import {consumirAPI} from './servicios.js'
 import {pintarCanciones} from './diseño.js'
 import {pintartarjeta} from './diseñotargeta.js'
-
-
+import {reproductormusica} from './reproductor.js'
 
 
 
@@ -24,6 +23,14 @@ boton.addEventListener("click", async function(evento){
         let datosConsultadosAPI=await consumirAPI(URI,token)
         let contenedores=pintarCanciones(datosConsultadosAPI)
         pintartarjeta(contenedores)
+        reproductormusica(contenedores)
+
+        
+        
+        
+        
+
+        
         
 
 

@@ -26,12 +26,12 @@ export function pintarCanciones(pistas){
       let separador = document.createElement("hr")
 
       separador.classList.add("w-50")
-      separador.classList.add("mx-auto")
+     
      
 
       let contenedorfinal=document.createElement("div")
-      contenedorfinal.classList.add("px-3")
-      contenedorfinal.classList.add("text-center")
+      contenedorfinal.classList.add("w-screen","text-white","ml-3", "font-sans","italic")
+      
 
 
 
@@ -43,6 +43,11 @@ export function pintarCanciones(pistas){
       audiocancion.src=cancion.preview_url
       audiocancion.setAttribute("controls","controls",)
 
+      let popularidad= document.createElement("h4")
+
+      popularidad.textContent=cancion.popularity
+
+      contenedorfinal.appendChild(popularidad)
       contenedorfinal.appendChild(nombre)
       contenedorfinal.appendChild(audiocancion)
       contenedorimagen.appendChild(contenedorfinal)
@@ -51,6 +56,8 @@ export function pintarCanciones(pistas){
       
       cancionindividual.appendChild(contenedorfinal)
       listacanciones.appendChild(cancionindividual)
+
+      
 
       return{contenedorimagent:imagen,
              contenedornombre:nombre,
